@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -19,6 +22,24 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+#currentDate {
+  font-family: 'contrail One', cursive;
+  font-weight: 300;
+  font-size: 2em;
+}
+#currentTime {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: greenyellow;
+  font-family: 'Contrail One', cursive;
+  font-size: 4em;
 }
 
 .description{
