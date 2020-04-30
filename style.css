@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #2bffe381;
 }
 
 textarea{
@@ -40,6 +42,36 @@ textarea{
   color: greenyellow;
   font-family: 'Contrail One', cursive;
   font-size: 4em;
+}
+.container {
+  border: 1px;
+  border-style: groove;
+  border-width: 8px;
+  border-color: #d89dff;
+  border-radius: 5px;
+}
+
+.time {
+  background-color: #d89dff5e;
+  border-color: #d89dff;
+  border-right-style: dotted;
+  border-width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Modak', cursive;
+}
+
+.to-do{
+  border: 1px;
+}
+
+.lock {
+  border-color: #d89dff;
+  border-left-style: solid;
+  border-width: 2px;
+  background-color: #63aafc;
 }
 
 .description{
