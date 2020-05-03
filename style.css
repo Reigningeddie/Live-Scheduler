@@ -51,7 +51,12 @@ textarea{
   position: absolute;
   margin-left: 200px;
 }
-
+input {
+  position: absolute;
+  margin-left: 200px;
+  background-color: #81f8e881;
+  border: none;
+}
 .container {
   border: 1px;
   border-style: groove;
@@ -110,7 +115,7 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ed61ff;
   color: white;
 }
 
